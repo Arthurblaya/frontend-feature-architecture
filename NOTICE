@@ -1,0 +1,15 @@
+frontend-feature-architecture
+Based on the frontend organization approach explained by Kyle Cook / Web Dev Simplified:
+"This Folder Structure Makes Me 100% More Productive"
+https://www.youtube.com/watch?v=xyxrB2Aa7KE
+
+Original example repository:
+https://github.com/WebDevSimplified/parity-deals-clone/tree/feature-folder-structure
+Inspected commit: 48c95960cda340248fd6004b72a2441bda22b517
+Original repository license: MIT, Copyright (c) 2024 WebDevSimplified.
+
+Adapted into a reusable skill and maintained by Artur Blaya.
+This is an independent adaptation, with original instructions and examples.
+No original application source code or complete video transcript is redistributed.
+Original source material retains its own authorship and rights.
+No affiliation or endorsement is implied.

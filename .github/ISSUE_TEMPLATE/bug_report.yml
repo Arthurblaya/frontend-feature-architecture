@@ -1,0 +1,39 @@
+name: Bug report
+description: Report an installer failure or incorrect architecture guidance.
+title: "bug: "
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected area
+      options:
+        - Installer
+        - Skill guidance
+        - Documentation
+        - Release distribution
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the observed behavior and what you expected.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Include the command or skill request and the relevant project structure.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Skill version, harness, operating system, and Node.js/npm versions when relevant.
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Relevant output or files
+      description: Include the error or the guidance that led to the problem.

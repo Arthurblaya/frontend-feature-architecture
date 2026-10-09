@@ -1,0 +1,22 @@
+name: Improvement
+description: Suggest a concrete improvement to the skill or installer.
+title: "proposal: "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What decision or workflow needs better support?
+      description: Give a concrete use case and its current limitation.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed improvement
+      description: Explain the intended behavior and include a neutral example if useful.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Supporting examples or sources

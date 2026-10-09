@@ -1,0 +1,4 @@
+interface:
+  display_name: "Frontend Feature Architecture"
+  short_description: "Organize frontend features with clear boundaries"
+  default_prompt: "Use $frontend-feature-architecture to implement this frontend feature with cohesive ownership and one-way dependencies."

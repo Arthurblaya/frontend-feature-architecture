@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="420" viewBox="0 0 1400 420" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">Frontend Feature Architecture</title>
+  <desc id="description">A framework-independent agent skill. The application composes features, and features depend on shared foundations.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1400" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111827"/>
+      <stop offset="1" stop-color="#17253A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="74" y1="0" x2="1326" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A5B4FC"/>
+      <stop offset="1" stop-color="#5EEAD4"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" stroke="#94A3B8" stroke-opacity=".05"/>
+    </pattern>
+  </defs>
+  <rect width="1400" height="420" rx="24" fill="url(#background)"/>
+  <rect width="1400" height="420" rx="24" fill="url(#grid)"/>
+  <path d="M74 46H1326" stroke="url(#accent)" stroke-width="3"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="74" y="96" fill="#A5B4FC" font-size="16" font-weight="700" letter-spacing="3">A PORTABLE AGENT SKILL</text>
+    <text x="74" y="168" fill="#F8FAFC" font-size="54" font-weight="700">Frontend Feature Architecture</text>
+    <text x="76" y="214" fill="#CBD5E1" font-size="23">Organize around capabilities. Make dependencies explicit.</text>
+    <rect x="74" y="266" width="350" height="94" rx="14" fill="#818CF8" fill-opacity=".1" stroke="#818CF8" stroke-opacity=".5"/>
+    <text x="100" y="304" fill="#C7D2FE" font-size="20" font-weight="700">Application</text>
+    <text x="100" y="334" fill="#94A3B8" font-size="17">Compose capabilities</text>
+    <path d="M444 313H514M505 305L514 313L505 321" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="534" y="266" width="330" height="94" rx="14" fill="#2DD4BF" fill-opacity=".08" stroke="#2DD4BF" stroke-opacity=".45"/>
+    <text x="560" y="304" fill="#99F6E4" font-size="20" font-weight="700">Features</text>
+    <text x="560" y="334" fill="#94A3B8" font-size="17">Own product behavior</text>
+    <path d="M884 313H954M945 305L954 313L945 321" stroke="#64748B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="974" y="266" width="352" height="94" rx="14" fill="#94A3B8" fill-opacity=".08" stroke="#94A3B8" stroke-opacity=".35"/>
+    <text x="1000" y="304" fill="#E2E8F0" font-size="20" font-weight="700">Shared foundations</text>
+    <text x="1000" y="334" fill="#94A3B8" font-size="17">Provide reusable primitives</text>
+  </g>
+</svg>

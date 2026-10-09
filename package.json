@@ -1,0 +1,41 @@
+{
+  "name": "frontend-feature-architecture",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A framework-independent frontend architecture skill with an installer for Codex, Claude Code, and OpenCode.",
+  "type": "module",
+  "bin": {
+    "frontend-feature-architecture": "bin/frontend-feature-architecture.js"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "SKILL.md",
+    "references/",
+    "agents/",
+    "LICENSE",
+    "NOTICE",
+    "CONTRIBUTING.md",
+    "docs/",
+    "assets/readme-banner.svg"
+  ],
+  "scripts": {
+    "check": "node scripts/check.js",
+    "test": "node --test tests/*.test.js",
+    "prepack": "npm run check && npm test"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "author": "Artur Blaya",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arthurblaya/frontend-feature-architecture.git"
+  },
+  "homepage": "https://github.com/Arthurblaya/frontend-feature-architecture#readme",
+  "bugs": {
+    "url": "https://github.com/Arthurblaya/frontend-feature-architecture/issues"
+  },
+  "keywords": ["agent-skill", "frontend", "architecture", "features", "codex", "claude-code", "opencode"]
+}
